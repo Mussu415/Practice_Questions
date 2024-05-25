@@ -1,3 +1,5 @@
+package PCQs_25_5_24;
+
 // ques4 
 
 /*Write a Java program to create a class called "Circle" with a radius attribute. 
