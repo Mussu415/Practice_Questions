@@ -36,17 +36,20 @@ withdraw(double amount): Overrides the method from BankAccount to allow withdraw
 displayOverdraftLimit(): Method to display the overdraft limit of the account.
 <br>
 <hr>
-<b>OOP Concepts Used</b>
+<b>OOPs Concepts Used</b>
 <br>
 <u>Encapsulation</u>
 <br>
 Encapsulation is used to protect the attributes of each class. The attributes are made private and can only be accessed through public getter and setter methods.
 <br>
 <u>Inheritance</u>
+<br>
 Inheritance allows SavingsAccount and CurrentAccount to inherit common attributes and methods from the BankAccount class, promoting code reuse and logical hierarchy.
 <br>
 <u>Polymorphism</u>
+<br>
 Polymorphism is demonstrated through method overriding. The withdraw method is overridden in the CurrentAccount class to provide specific functionality for overdraft limits.
 <br>
 <u>Abstraction</u>
+<br>
 Abstraction is achieved by defining a base class (BankAccount) that outlines the core functionalities of a bank account, while specific account types (SavingsAccount and CurrentAccount) implement additional functionalities.
