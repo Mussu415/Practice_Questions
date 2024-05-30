@@ -20,3 +20,11 @@ public class Ques1 {
         }    
     }
 }
+
+/*
+ for(int i=0;i<n/2;i++)
+ {
+    if(str.charAt(i)!=str.charAt(n-1-i))return false;
+ }
+ return true;
+ */
