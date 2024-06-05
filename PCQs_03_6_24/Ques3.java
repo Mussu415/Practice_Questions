@@ -2,7 +2,6 @@ package PCQs_03_6_24;
 import java.util.Arrays;
 
 // finding sets for the target sum 
-
 public class Ques3 {
     public static void main(String[] args) {
         int[] nums={1,2,3,5,8};

@@ -1,5 +1,6 @@
 package PCQs_04_6_24;
 
+//pangram 
 public class Ques5 {
     public static boolean isPangram(String str){
         if(str==null || str.isEmpty()){

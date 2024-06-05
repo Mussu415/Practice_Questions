@@ -1,6 +1,7 @@
 package PCQs_04_6_24;
 import java.util.Scanner;
 
+//matrix transpose
 public class Ques4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

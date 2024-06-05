@@ -2,6 +2,7 @@ package PCQs_04_6_24;
 
 import java.util.Scanner;
 
+// string contains palindrome 
 public class Ques7 {
     public static boolean isPali(String st){
         boolean pali = true;
