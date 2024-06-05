@@ -8,6 +8,7 @@ public class Ques1 {
         if (arr.length == 0 || arr.length == 1) {
           return arr;  
         }
+        //insertion sort
         for (int i = 1; i < arr.length; i++) {
             int key = arr[i];
             int j = i - 1;

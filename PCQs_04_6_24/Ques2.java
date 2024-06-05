@@ -1,6 +1,6 @@
 package PCQs_04_6_24;
 
-//to arrays equal 
+//two arrays equal with same elements
 public class Ques2 {
     public static boolean areEqual(int[] arr1, int[] arr2) {
         if (arr1.length != arr2.length) {
@@ -23,7 +23,7 @@ public class Ques2 {
         return true;
       }
       public static void main(String[] args) {
-        int[] arr1 = {1, 2, 3};
+        int[] arr1 = {1, 3, 3};
         int[] arr2 = {2, 1, 3, 8};
     
         if (areEqual(arr1, arr2)) {
