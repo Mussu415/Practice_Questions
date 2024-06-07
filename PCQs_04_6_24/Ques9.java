@@ -1,8 +1,6 @@
 package PCQs_04_6_24;
 
 public class Ques9 {
-    // This function returns
-    // value of a Roman symbol
     int value(char r)
     {
         if (r == 'I')
@@ -11,39 +9,30 @@ public class Ques9 {
             return 5;
         if (r == 'X')
             return 10;
-        // if (r == 'L')
-        //     return 50;
-        // if (r == 'C')
-        //     return 100;
-        // if (r == 'D')
-        //     return 500;
-        // if (r == 'M')
-        //     return 1000;
+        if (r == 'L')
+            return 50;
+        if (r == 'C')
+            return 100;
+        if (r == 'D')
+            return 500;
+        if (r == 'M')
+            return 1000;
         return -1;
     }
     int romanToDecimal(String str)
     {
-        // Initialize result
         int res = 0;
 
-        for (int i = 0; i < str.length(); i++) {
-            // Getting value of symbol s[i]
+        for (int i = 0; i < str.length(); i++) {     
             int s1 = value(str.charAt(i));
 
-            // Getting value of symbol s[i+1]
             if (i + 1 < str.length()) {
                 int s2 = value(str.charAt(i + 1));
 
-                // Comparing both values
                 if (s1 >= s2) {
-                    // Value of current symbol
-                    // is greater or equalto
-                    // the next symbol
                     res = res + s1;
                 }
                 else {
-                    // Value of current symbol is
-                    // less than the next symbol
                     res = res + s2 - s1;
                     i++;
                 }
@@ -56,12 +45,9 @@ public class Ques9 {
         return res;
     }
 
-    // Driver Code
     public static void main(String args[])
     {
         Ques9 ob = new Ques9();
-
-        // Considering inputs given are valid
         String str = "XXIX";
         System.out.println("Integer form of Roman Numeral" + " is " + ob.romanToDecimal(str));
     }
