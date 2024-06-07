@@ -5,9 +5,9 @@ public class Ques9 {
             if (r == 0 || n == r) {
                 return 1;
             } else if (r < 0 || n < 0) {
-                return 0; // Handle invalid inputs (negative r or n)
+                return 0; 
             } else {
-                // Recursive case: nCr = nC(n-1, r) + nC(n-1, r-1)
+             // nCr = nC(n-1, r) + nC(n-1, r-1)
                 return nCr(n - 1, r) + nCr(n - 1, r - 1);
             }
         }
