@@ -1,6 +1,8 @@
 package PCQs_06_6_24;
 
 public class Ques5 {
+
+    //Quick sort 
     public static int partition(int[]arr, int low, int high){
         int pivot =arr[high];
         int i = low-1;
