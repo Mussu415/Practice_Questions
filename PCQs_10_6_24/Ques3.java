@@ -15,7 +15,7 @@ public class Ques3 {
         return maxProduct;
     }
     public static void main(String[] args) {
-        int[] nums = {2, 2, -3, -3, 1, 2};
+        int[] nums = {2, 2, -3, -3, 1, 2, 0};
         int maxProduct = maxProduct(nums);
         System.out.println("Maximum product of a contiguous subarray: " + maxProduct);
         }
