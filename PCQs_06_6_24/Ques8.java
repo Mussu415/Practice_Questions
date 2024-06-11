@@ -1,5 +1,6 @@
 package PCQs_06_6_24;
 
+//Matrix multiplication 
 public class Ques8{        
     public static int[][] multiplyMatrices(int[][] firstMatrix, int[][] secondMatrix) {
         int rowsFirst = firstMatrix.length;
