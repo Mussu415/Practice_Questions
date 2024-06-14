@@ -17,7 +17,7 @@ class dog {
 
    // setter method 
    public void setName(String name){
-         this.name=name;
+    this.name=name;
    }
    public void setBreed(String breed){
     this.breed=breed;
