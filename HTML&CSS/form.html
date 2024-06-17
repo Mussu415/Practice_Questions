@@ -3,17 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
     <title>Form</title>
 </head>
 <!--body starts here-->
 <body>
-    <form action="">
-        <label for="fname">First name</label><br>
-        <input type="text"><br>
-        <label for="gender">Gender
-            <input type="submit">
-        </label><br>
-       
-    </form>
+    <div class="form">
+        <div class="title-div">
+            <h1>Muskan Sharma</h1>
+            <p>This is a form created using html and css</p>
+            <p class="required">*Required</p>
+        </div>
+
+        <div class="name-div">
+            <div class="name">What is Your name?<span class="required">*</span></div>
+            <div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+        </div>
+
+        <div class="college-div">
+            <div class="name">Enter your college name</div>
+            <div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+        </div>
+
+        <div class="gmail-div">
+            <div class="name">Enter your Gmail id<span class="required">*</span></div>
+            <div class="input-div"><input type="input" name="answer" placeholder="Your email"></div>
+        </div>
+
+        <div class="mobile-div">
+            <div class="name">Enter your Mobile number</div>
+            <div class="input-div"><input type="input" name="answer" placeholder="Your email"></div>
+        </div>
+        
+        <div>
+            <input class="button" type="submit" value="Submit">
+        </div>
+
+        <div class="last-div">
+            <p class="never">Never submit passwords through Google Forms.</p>
+            <p class="term">This content is neither created nor endorsed by Google, <u>Report Abuse</u> - <u>Term of Service</u> - <u>Privacy policy</u></p>
+            <h2><b>Google</b> Forms</h2>
+        </div>
+        
+    </div>
 </body>
 </html>
