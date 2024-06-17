@@ -2,7 +2,7 @@ package PCQs_25_5_24;
 //multiple inheritance
 
 interface human{
-    void walk();
+   void walk();
 }
 interface animal{
     void walk();
